@@ -1,0 +1,4 @@
+定时任务
+# crontab -e
+每天执行一次
+30 1 * * * sh /home/backup/bbackup.sh
